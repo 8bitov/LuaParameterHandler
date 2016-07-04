@@ -1,0 +1,23 @@
+{
+  "name": "8bitov/LuaParameterHandler",
+  "license": "MIT",
+  "version" : "0.0.1",
+  "keywords":    [],
+  "homepage":    "https://github.com/8bitov/LuaParameterHandle",
+  "authors": [
+    {
+      "name": "Aleksey Kuznetsov"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~5.4.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bitov8\\LuaParameterHandler\\": "src/"
+    }
+  }
+}
